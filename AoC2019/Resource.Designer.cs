@@ -104,5 +104,23 @@ namespace AoC2019 {
                 return ResourceManager.GetString("Request", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to R991,U847,L239,U883,L224,D359,L907,D944,L79,U265,L107,D183,R850,U203,R828,D95,L258,D931,R792,U117,L309,U182,L633,D567,L828,D454,L660,U652,L887,D341,L497,D857,L299,U191,L882,D476,L968,U913,R453,D776,R169,D1,L193,D187,L564,U306,R815,U9,L434,U879,L816,D142,R16,U663,L54,D347,L557,U828,R597,D328,L636,U200,L383,D256,R162,U159,R37,D748,R440,D260,R48,D755,R762,U73,L357,U132,L745,D426,L797,U744,R945,D788,R585,U948,L20,D983,L335,U709,R488,U715,R229,D672,L13,D930,R903,D71,R620,U146,L835,U936,R542,D311,R375,U91,R362,U6 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Wire1 {
+            get {
+                return ResourceManager.GetString("Wire1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to L994,U274,R468,D607,R236,D712,R825,D228,L812,U796,R806,D874,L742,D297,L269,D853,R229,U319,R616,U77,L30,D879,L831,U241,R751,D20,R577,D949,L333,D520,L249,D165,R831,U965,L229,D412,L312,U31,L624,U593,L508,D359,R187,D682,R536,D266,L761,U412,R136,D296,L334,D180,R683,U93,L323,D864,L912,U262,L150,U437,L961,U224,R684,D62,R733,U302,R700,D417,R861,U394,L647,D564,R588,U184,L344,D812,L412,U409,R853,D548,L401,D670,R973,U490,R791,D784,R569,U852,R753,U510,R394,D517,R253,D418,R665,D742,L233,D311,L266,D395,L23,U595,R248,D243 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Wire2 {
+            get {
+                return ResourceManager.GetString("Wire2", resourceCulture);
+            }
+        }
     }
 }

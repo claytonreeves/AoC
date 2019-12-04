@@ -56,6 +56,20 @@ namespace AoC2019
                         }
                         break;
 
+                    case "3.1":
+                        try
+                        {
+                            var d3_1 = new Day3();
+                            Console.WriteLine(d3_1.FindSolution(Resource.Wire1, Resource.Wire2));
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(Resource.Error, input, Environment.NewLine, e.Message, Environment.NewLine, e.StackTrace);
+                            throw;
+                        }
+
+                        break;
+
                     case "finish":
                         running = false;
                         break;
